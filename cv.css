@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+    background-image: url("grey3.jpg");
+}
+
+
+/* BODY :*/
+
+
+/* --------------------------------------------------------------*/
+
+
+/* HEADER start*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-width: 3px;
+    color: rgb(255, 255, 255);
+    background-image: url(digi3.jpg);
+    background-size: cover;
+}
+
+.maintitle {
+    margin-right: 300px;
+    margin-top: 36px;
+    font-size: 47px;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.05em rgb(59, 223, 245);
+}
+
+.maintitle:hover {
+    font-weight: bolder;
+    color: yellow;
+}
+
+.info {
+    margin-right: 230px;
+    font-size: 23px;
+}
+
+.az {
+    font-size: 18px;
+}
+
+.pic {
+    width: 175px;
+    height: 178px;
+    border-style: solid;
+    border-color: rgb(5, 104, 150);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 20px;
+    margin-right: 21px;
+}
+
+
+/* HEADER end */
+
+
+/* -------------------------------------------------------------------*/
+
+
+/* SECTION start */
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin: 44px;
+    color: white;
+}
+
+section ul li {
+    padding: 5px;
+    color: rgb(2, 24, 85);
+}
+
+.leftblock {
+    margin-left: 0px;
+    width: 50%;
+}
+
+.rightblock {
+    margin-left: 110px;
+    margin-top: 55px;
+    width: 50%;
+}
+
+.para3 {
+    margin-top: 108px;
+}
+
+.info li {
+    text-align: left;
+}
+
+.leftblock .info {
+    text-align: center;
+}
+
+.pol {
+    font-size: 20px;
+}
+
+.hpara {
+    font-size: 37px;
+    color: rgb(55, 127, 236);
+    text-shadow: 0.05em 0.05em 0.05em black;
+    text-align: center;
+}
+
+b {
+    color: rgb(99, 196, 235);
+    text-shadow: 0.03em 0.03em 0.03em black;
+}
+
+.xp {
+    text-align: left;
+}
+
+
+/* SECTION end */
+
+
+/* ---------------------------------------------*/
+
+
+/* FOOTER start*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 177, 177);
+}
+
+.xiumi {
+    margin-right: 168px;
+    text-align: center;
+}
+
+.lang {
+    text-align: center;
+}
+
+.flag {
+    height: 40px;
+    width: 50px;
+    margin: 12px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.flags :hover {
+    border-style: solid;
+    border-color: yellow;
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(201, 33, 103);
+    text-shadow: 0.02em 0.02em 0.02em black;
+}
+
+footer p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+/* FOOTER end  */
+
+
+/* -----------------------------------------------*/
+
+
+/* Applications générales*/
+
+ul li {
+    list-style: none;
+}
+
+hr {
+    width: 81%;
+    height: 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
